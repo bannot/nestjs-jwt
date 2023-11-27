@@ -2,12 +2,7 @@ name: GHA test Workflow
 
 on:
     workflow_dispatch:
-      inputs:
-        confirmation:
-          description: If run production flow, input tag or branch(recent commit) sha
-          required: true
-          default: ''
-          type: string
+
 
 jobs:
   printLog:
