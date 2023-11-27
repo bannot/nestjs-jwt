@@ -8,3 +8,12 @@ on:
           required: true
           default: ''
           type: string
+
+jobs:
+  printLog:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print log
+      run: echo "Hello!"
+
